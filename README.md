@@ -1,10 +1,10 @@
 Starstrider42's TestFlight Configs
 ============
 
-These are alternative configs created for [TestFlight 18.0](https://github.com/KSP-RO/TestFlight). Currently, only stock KSP rocket engines are supported; I will be adding configs for other stock parts and mods I play with as time permits.
+These are alternative configs created for [TestFlight 18.0](https://github.com/KSP-RO/TestFlight). Currently, only stock KSP engines are supported; I will be adding configs for other stock parts and mods I play with as time permits.
 
 The configs are inspired by the ones that ship with Realism Overhaul, but are designed to be a bit more forgiving at the expense of realism. General principles I followed when writing the stock configs:
-* Most liquid-fueled engines have rated burn times of 2-5 minutes, depending on whether they're intended for launch or orbital maneuvers. Most ships will not have enough fuel to make such long burns, but I'm trying to support as many designs as possible. Solid-fueled engines have rated burn times corresponding to 50-60% thrust for similar reasons.
+* Most liquid-fueled engines have rated burn times of 2-5 minutes, depending on whether they're intended for launch or orbital maneuvers. (5 minute burns may be needed by low-TWR interplanetary spacecraft.) Solid-fueled engines have rated burn times corresponding to 50-60% thrust for similar reasons. Jet engines have longer rated burn times, up to 90 minutes, to allow long flights.
 * Reusable engines will "forget" previous burns when idling for long enough. In addition to allowing multiple burns with no penalty for cumulative burn time, this rule ensures that engines will be more likely to fail after each ignition, not just the first one.
 * Generally, solid-fueled engines are more reliable than liquid-fueled engines, but when they do fail, the results are more spectacular. Monopropellant, nuclear, and ion engines are immune to certain failure modes.
 * I've tried to follow hints from the part descriptions. In particular, the RT-series boosters and the 3.75 m Kerbodyne engines are a bit prone to exploding, and the Kerbodyne engines start out very unreliable.

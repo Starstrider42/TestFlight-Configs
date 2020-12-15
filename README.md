@@ -21,7 +21,8 @@ Engines
 * The J-404 and RAPIER currently do not have TestFlight support, because TestFlight does not support stock multi-mode engines.
 * Nuclear engines and other thermal rockets have rated burn times of 10-15 minutes to allow low-thrust interplanetary burns. Like jet engines, they have low initial reliability (30%) to compensate for their long burn time. They have similar failure modes to monopropellant rockets, but are even more reliable when mature (99.9%).
 * Ion thrusters typically have rated burn times of 20-30 minutes and reliabilities of 35-99.5%. They cannot explode or overheat, but are more likely than other kinds of thrusters to lose specific impulse.
-* Electromagnetic thrusters typically have rated burn times of 10-20 minutes and reliabilities of 40-99.8%. They have a variety of failure modes, but will never explode.
+* Electromagnetic thrusters typically have rated burn times of 10-20 minutes and reliabilities of 40-99.8%. They cannot explode or overheat.
+* Electrothermal thrusters typically have rated burn times of 10-20 minutes and reliabilities of 40-99.8%. They have similar failure modes to electromagnetic thrusters, but can also develop cooling problems.
 
 | Engine type     | Shutdown | Low I<sub>sp</sub> | Low Thrust | Overheat | Explode |
 | --------------- | -------- | ------------------ | ---------- | -------- | ------- |
@@ -32,7 +33,8 @@ Engines
 | Turboramjet     | 55%      | 28%                | 14%        |          | 3%      |
 | Thermal Rocket  | 52%      | 26%                | 13%        | 6%       | 3%      |
 | Electrostatic   | 29%      | 57%                | 14%        |          |         |
-| Electromagnetic | 36%      | 36%                | 18%        | 9%       |         |
+| Electromagnetic | 40%      | 40%                | 20%        |          |         |
+| Electrothermal  | 36%      | 36%                | 18%        | 9%       |         |
 
 Heat Shields
 ------------

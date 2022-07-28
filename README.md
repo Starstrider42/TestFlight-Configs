@@ -1,7 +1,8 @@
-Starstrider42's TestFlight Configs
+TestFlight-Stock
 ============
+From Starstrider42:
 
-These are alternative configs created for [TestFlight 1.8](https://github.com/KSP-RO/TestFlight). Currently, only engines and heat shields are supported; I will be adding configs for other stock parts and mods I play with as time permits.
+"These are alternative configs created for [TestFlight 1.8](https://github.com/KSP-RO/TestFlight). Currently, only engines and heat shields are supported; I will be adding configs for other stock parts and mods I play with as time permits.
 
 The configs are inspired by the ones that ship with Realism Overhaul, but are designed to be a bit more forgiving at the expense of realism. I've tried to follow hints from the part descriptions. For example, the RT-series boosters and the 3.75 m Kerbodyne engines are a bit prone to exploding, and the Kerbodyne engines start out very unreliable.
 
@@ -43,4 +44,4 @@ Heat Shields
 
 License
 ------------
-These configs are released under the MIT License. A copy of the license can be found in the file `LICENSE` in the mod directory, or online at http://opensource.org/licenses/MIT.
+These configs are released under the MIT License. A copy of the license can be found in the file `LICENSE` in the mod directory, or online at http://opensource.org/licenses/MIT."

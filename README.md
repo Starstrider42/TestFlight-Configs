@@ -1,5 +1,8 @@
 TestFlight-Stock
 ============
+Original repository: https://github.com/Starstrider42/TestFlight-Configs
+This is a mod originally created by Starstrider42, however development stopped at KSP 1.8/1.9 with the latest version released more than two years ago. Because of that, I've decided to adopt and modidy it, aiming to include support for (hopefully) all existing part mods.
+
 From Starstrider42:
 
 "These are alternative configs created for [TestFlight 1.8](https://github.com/KSP-RO/TestFlight). Currently, only engines and heat shields are supported; I will be adding configs for other stock parts and mods I play with as time permits.

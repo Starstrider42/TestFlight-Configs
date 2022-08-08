@@ -1,10 +1,25 @@
-TestFlight-Stock
+TestFlight-Stock (TestFlight-Configs-Revived)
 ============
 Original repository: https://github.com/Starstrider42/TestFlight-Configs
 
 This is a mod originally created by Starstrider42, however development stopped at KSP 1.8/1.9 with the latest version released more than two years ago. Because of that, I've decided to adopt and modidy it, aiming to include support for (hopefully) all existing part mods.
 
+Modifications: 
+-------
+* Engine reliability and ignition chance now depends on it's position on the tech tree and features of higher performance and quality (TWR, engine efficiency, reusability, cost,...)
+* Prototype/experimental engines using brand-new engine cycle and propellant technologies, whether stated in the description itself, through logical indications derived from engine performance (for example, hydrolox engines usually have a vacuum specific impulse of over 400 isp) or from actual designs their real-life analogs, will have lower reliability than the older engines utilizing tested and perfected engineering.
+* Tech transfers can only be done with engines within the same family, engineering principles and propellant types. The amount of transfers increase if there's more similarities.
+* Heat shields are no longer supported.
+
+Notes:
+-------
+* TestFlight-Stock, while being "alternative", gives a more individualized and unique system for TF than the official default configs. 
+* Contrary to popular belief, TestFlight works perfectly with Kerbalism and OhScrap. Do not afraid to install TF and TF-Stock if you have those mods installed (SRB failures handling will use TF-Stock and not OhScrap).
+
+While Starstrider's contents remains under the MIT license, my modifications are released under the GNU General Public License v3.0. The license can be found in the repository's LICENSE file as usual, or at the website here: https://opensource.org/licenses/gpl-3.0.html
+
 From Starstrider42:
+-------
 
 "These are alternative configs created for [TestFlight 1.8](https://github.com/KSP-RO/TestFlight). Currently, only engines and heat shields are supported; I will be adding configs for other stock parts and mods I play with as time permits.
 

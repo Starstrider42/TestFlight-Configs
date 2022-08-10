@@ -14,7 +14,7 @@ Modifications:
 Notes:
 -------
 * TestFlight-Stock, while being "alternative", gives a more individualized and unique system for TF than the official default configs. 
-* Contrary to popular belief, TestFlight works perfectly with Kerbalism and OhScrap. Do not afraid to install TF and TF-Stock if you have those mods installed (SRB failures handling will use TF-Stock and not OhScrap).
+* Contrary to popular belief, TestFlight works perfectly with Kerbalism and ~~OhScrap~~ (currently working with Zer0Kerbal to solve this). Do not afraid to install TF and TF-Stock if you have those mods installed (SRB failures handling will use TF-Stock and not OhScrap).
 
 While Starstrider's contents remains under the MIT license, my modifications are released under the GNU General Public License v3.0. The license can be found in the repository's LICENSE file as usual, or at the website here: https://opensource.org/licenses/gpl-3.0.html
 

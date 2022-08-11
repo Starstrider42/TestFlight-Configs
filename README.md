@@ -1,6 +1,6 @@
 TestFlight-Stock (TestFlight-Configs-Revived)
 ============
-Website: https://forum.kerbalspaceprogram.com/index.php?/topic/209303-112x-testflight-stock-testflight-configs-revived-v030-beta-2-years-5-months-a-week-and-two-days/
+Forum: https://forum.kerbalspaceprogram.com/index.php?/topic/209303-112x-testflight-stock-testflight-configs-revived-v030-beta-2-years-5-months-a-week-and-two-days/
 
 Original repository: https://github.com/Starstrider42/TestFlight-Configs
 

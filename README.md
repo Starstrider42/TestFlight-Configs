@@ -2,7 +2,7 @@ TestFlight-Stock (TestFlight-Configs-Revived)
 ============
 Original repository: https://github.com/Starstrider42/TestFlight-Configs
 
-This is a mod originally created by Starstrider42, however development stopped at KSP 1.8/1.9 with the latest version released more than two years ago. Because of that, I've decided to adopt and modidy it, aiming to include support for (hopefully) all existing part mods.
+This is a mod originally created by Starstrider42, however development stopped at KSP 1.8/1.9 with the latest version released more than two years ago. Because of that, I've decided to adopt and modify it, aiming to include support for stock and (hopefully) all existing part mods.
 
 Modifications: 
 -------

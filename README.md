@@ -46,6 +46,8 @@ Engines
 * Electromagnetic thrusters typically have rated burn times of 10-20 minutes and reliabilities of 85-99.8%. They cannot explode or overheat.
 * Electrothermal thrusters typically have rated burn times of 10-20 minutes and reliabilities of 84-99.8%. They have similar failure modes to electromagnetic thrusters, but can also develop cooling problems.
 
+Below is the spreadsheet displaying various failure modes and their probabilities for respective engine types. Note that the numbers are calculated under the assumption that the engine do not have the ability to gimbal, and ignition failure + cold gas exhaust is not accounted for.
+
 | Engine type     | Shutdown | Low I<sub>sp</sub> | Low Thrust | Overheat | Explode |
 | --------------- | -------- | ------------------ | ---------- | -------- | ------- |
 | Liquid-Fuel     | 52%      | 26%                | 13%        | 6%       | 3%      |
@@ -53,6 +55,7 @@ Engines
 | Jet Turbine     | 53%      | 27%                | 13%        | 3%       | 3%      |
 | Ramjet          | 57%      | 28%                | 14%        |          |         |
 | Turboramjet     | 55%      | 28%                | 14%        |          | 3%      |
+| Thermal Ramjet  | 55%      | 28%                | 14%        |          | 3%      |
 | Thermal Rocket  | 52%      | 26%                | 13%        | 6%       | 3%      |
 | Electrostatic   | 29%      | 57%                | 14%        |          |         |
 | Electromagnetic | 40%      | 40%                | 20%        |          |         |

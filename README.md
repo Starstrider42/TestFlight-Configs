@@ -46,20 +46,22 @@ Engines
 * Electromagnetic thrusters typically have rated burn times of 10-20 minutes and reliabilities of 85-99.8%. They cannot explode or overheat.
 * Electrothermal thrusters typically have rated burn times of 10-20 minutes and reliabilities of 84-99.8%. They have similar failure modes to electromagnetic thrusters, but can also develop cooling problems.
 
-Below is the spreadsheet displaying various failure modes and their probabilities for respective engine types. Note that the numbers are calculated under the assumption that the engine do not have the ability to gimbal, and ignition failure + cold gas exhaust is not accounted for.
+Below is the spreadsheet displaying various failure modes and their probabilities for respective engine types. Note that the numbers are calculated under the assumption that the engine can gimbal, and integrated fuel tanks is not accounted for. Start-up reliability is directly calculated using ignitionReliabilityStart/End.
 
-| Engine type     | Shutdown | Low I<sub>sp</sub> | Low Thrust | Overheat | Explode |
-| --------------- | -------- | ------------------ | ---------- | -------- | ------- |
-| Liquid-Fuel     | 52%      | 26%                | 13%        | 6%       | 3%      |
-| Solid-Fuel      |          | 89%                |            |          | 11%     |
-| Jet Turbine     | 53%      | 27%                | 13%        | 3%       | 3%      |
-| Ramjet          | 57%      | 28%                | 14%        |          |         |
-| Turboramjet     | 55%      | 28%                | 14%        |          | 3%      |
-| Thermal Ramjet  | 55%      | 28%                | 14%        |          | 3%      |
-| Thermal Rocket  | 52%      | 26%                | 13%        | 6%       | 3%      |
-| Electrostatic   | 29%      | 57%                | 14%        |          |         |
-| Electromagnetic | 40%      | 40%                | 20%        |          |         |
-| Electrothermal  | 36%      | 36%                | 18%        | 9%       |         |
+| Engine type     | Shutdown | Low I<sub>sp</sub> | Low Thrust | Overheat | Explode | Vector Glitch | Sluggish Vector |
+| --------------- | -------- | ------------------ | ---------- | -------- | ------- | ------------- | --------------- |
+| Liquid-Fuel     | 43%      | 22%                | 11%        | 5%       | 3%      | 5%            | 11%             |
+| Solid-Fuel      |          | 53%                |            |          | 7%      | 13%           | 27%             |
+| Jet Turbine     | 44%      | 22%                | 11%        | 3%       | 3%      | 6%            | 11%             |
+| Ramjet          | 47%      | 23%                | 12%        |          |         | 6%            | 12%             |
+| Turboramjet     | 46%      | 23%                | 11%        |          | 3%      | 6%            | 11%             |
+| Thermal Ramjet  | 44%      | 22%                | 11%        |          | 6%      | 6%            | 11%             |
+| Thermal Rocket  | 43%      | 22%                | 11%        | 5%       | 3%      | 5%            | 11%             |
+| Cold Gas        | 46%      | 23%                | 11%        |          | 3%      | 6%            | 11%             |
+| Electrostatic   | 23%      | 47%                | 12%        |          |         | 6%            | 12%             |
+| Electromagnetic | 31%      | 31%                | 15%        |          |         | 8%            | 15%             |
+| Electrothermal  | 29%      | 29%                | 14%        | 7%       |         | 7%            | 14%             |
+| Electric Motors | 53%      | 3%                 | 13%        | 7%       | 3%      | 7%            | 13%             |
 
 Heat Shields
 ------------

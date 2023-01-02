@@ -6,6 +6,8 @@ Original repository: https://github.com/Starstrider42/TestFlight-Configs
 
 This is a config pack originally created by Starstrider42, however development stopped at KSP 1.8/1.9 with the latest version released more than two years ago. Because of that, I've decided to adopt and modify it, aiming to include support for stock and (hopefully) all existing part mods.
 
+Since Github doesn't allow issues in forked repositories, please report any bug related to the mod here: https://forum.kerbalspaceprogram.com/index.php?/topic/211274-testflight-stock-bug-tracker/
+
 Modifications: 
 -------
 * Engine reliability and ignition chance now depends on it's position on the tech tree and features of higher performance and quality (TWR, engine efficiency, reusability, cost,...)
